@@ -11,9 +11,9 @@ class urlmskr {
 
     public static function mask($text, $type) {
         if ($type == 'text') {
-            return "https://axorax.github.io/urlmskr/?t=" . self::encode($text);
+            return "https://itsyebekhe.github.io/urlmskr/?t=" . self::encode($text);
         } else {
-            return "https://axorax.github.io/urlmskr/" . self::encode($text);
+            return "https://itsyebekhe.github.io/urlmskr/" . self::encode($text);
         }
     }
 }
