@@ -10,9 +10,9 @@ def decode(text):
 
 def mask(text, type):
     if type == 'text':
-        return f"https://axorax.github.io/urlmskr/?t={encode(text)}"
+        return f"https://itsyebekhe.github.io/urlmskr/?t={encode(text)}"
     else:
-        return f"https://axorax.github.io/urlmskr/{encode(text)}"
+        return f"https://itsyebekhe.github.io/urlmskr/{encode(text)}"
 
 urlmskr = {
     'encode': encode,
