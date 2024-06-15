@@ -48,9 +48,9 @@ function encode(value) {
   } else {
     let encodedValue = window.btoa(value);
     if (currentMode == "redirect") {
-      output.innerText = `https://axorax.github.io/urlmskr/${encodedValue}`;
+      output.innerText = `https://itsyebekhe.github.io/urlmskr/${encodedValue}`;
     } else if (currentMode == "text") {
-      output.innerText = `https://axorax.github.io/urlmskr/?t=${encodedValue}`;
+      output.innerText = `https://itsyebekhe.github.io/urlmskr/?t=${encodedValue}`;
     }
   }
 }
